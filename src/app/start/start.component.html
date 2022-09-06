@@ -1,0 +1,12 @@
+<div class="p-3" style="display: flex;flex-direction: column;">
+    <div>
+        <label class="ms-Label bold" style="display: inline;">Video address&nbsp;</label>
+        <label class="ms-Label" style="display: inline;">(Paste link below)</label>
+    </div>
+
+    <input style="font-size: smaller;" class="ms-TextField-field" type="text" name="url" [(ngModel)]="targetUrl">
+    <button class="mt-2" (click)="openDialog()">
+        Open page in dialog
+    </button>
+
+</div>
